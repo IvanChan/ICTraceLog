@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ICTraceLog_Example' do
+  pod 'ICTraceLog', :path => '../'
+
+  target 'ICTraceLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
