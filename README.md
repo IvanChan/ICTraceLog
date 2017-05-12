@@ -22,7 +22,7 @@ pod "ICTraceLog"
 
 ## Author
 
-aintivanc@icloud.com, aintivanc@icloud.com
+_ivanC
 
 ## License
 
