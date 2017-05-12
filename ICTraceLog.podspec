@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ICTraceLog'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ICTraceLog.'
+  s.version          = '1.0.0'
+  s.summary          = 'A simple log system with level control & output control'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Simple log system with level control & output control, easy to use.
                        DESC
 
   s.homepage         = 'https://github.com/IvanChan/ICTraceLog'
@@ -28,9 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/IvanChan/ICTraceLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'ICTraceLog/Classes/**/*'
+  s.requires_arc = true
   
   # s.resource_bundles = {
   #   'ICTraceLog' => ['ICTraceLog/Assets/*.png']
